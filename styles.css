@@ -155,5 +155,15 @@ h2 {
 
 /* Metro line colors */
 .line-L2 { background-color: #9E1F63; }
-.line-L4 { background-color: #FFC10E; } 
+.line-L4 { background-color: #FFC10E; }
+
+.line-L11 {
+    background-color: #83B820;
+}
+.line-L11 .station-dot {
+    background-color: #83B820;
+}
+.metro-line:nth-child(6) h2 {
+    background-color: #83B820;
+}
 
