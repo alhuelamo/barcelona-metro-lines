@@ -9,18 +9,20 @@ body {
     background-color: white;
     color: #333;
     line-height: 1.6;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    width: 100%;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 3rem;
     color: #1a1a1a;
+    font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
 h2 {
@@ -40,14 +42,16 @@ h2 {
 }
 
 .metro-map {
-    padding: 3rem;
+    padding: 4rem 1rem 1rem 4rem;
+    width: 100%;
 }
 
 .metro-line {
     position: relative;
     margin-bottom: 8rem;
-    padding-top: 2rem;
-    padding-left: 1rem;
+    padding-top: 3rem;
+    width: 100%;
+    min-width: auto;
 }
 
 .line-path {
@@ -91,7 +95,7 @@ h2 {
 .station-name {
     position: absolute;
     left: 2px;
-    top: -40px;
+    top: -45px;
     transform: rotate(-45deg);
     font-size: 0.8rem;
     font-weight: bold;
@@ -100,6 +104,47 @@ h2 {
     color: #444;
     transform-origin: 0 100%;
     padding: 5px;
+}
+
+/* Mobile styles */
+@media (max-width: 1024px) {
+    .metro-line {
+        min-width: 1000px;
+    }
+
+    .metro-map {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .container {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    .metro-map {
+        padding: 3rem 0.5rem 0.5rem 3.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        width: 1.8rem;
+        height: 1.8rem;
+        left: -2.5rem;
+    }
+
+    .station-name {
+        font-size: 0.7rem;
+    }
+
+    .metro-line {
+        padding-top: 2.5rem;
+    }
 }
 
 /* Metro line colors */
