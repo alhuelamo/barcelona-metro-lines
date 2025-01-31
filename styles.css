@@ -153,9 +153,35 @@ h2 {
     background-color: #0072BC;
 }
 
-/* Metro line colors */
-.line-L2 { background-color: #9E1F63; }
-.line-L4 { background-color: #FFC10E; }
+.line-L6 {
+    background-color: #522785;
+}
+.line-L6 .station-dot {
+    background-color: #522785;
+}
+.metro-line:nth-child(6) h2 {
+    background-color: #522785;
+}
+
+.line-L7 {
+    background-color: #B05A2E;
+}
+.line-L7 .station-dot {
+    background-color: #B05A2E;
+}
+.metro-line:nth-child(7) h2 {
+    background-color: #B05A2E;
+}
+
+.line-L8 {
+    background-color: #EF87B4;
+}
+.line-L8 .station-dot {
+    background-color: #EF87B4;
+}
+.metro-line:nth-child(8) h2 {
+    background-color: #EF87B4;
+}
 
 .line-L11 {
     background-color: #83B820;
@@ -163,7 +189,11 @@ h2 {
 .line-L11 .station-dot {
     background-color: #83B820;
 }
-.metro-line:nth-child(6) h2 {
+.metro-line:nth-child(9) h2 {
     background-color: #83B820;
 }
+
+/* Metro line colors */
+.line-L2 { background-color: #9E1F63; }
+.line-L4 { background-color: #FFC10E; }
 
