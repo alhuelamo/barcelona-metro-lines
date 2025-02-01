@@ -272,17 +272,9 @@ h2 {
 .line-L11 .station-dot {
     background-color: #83B820;
 }
-.metro-line:nth-child(11) h2 {
-    background-color: #87CEEB;
-    font-size: 0.7rem;
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    line-height: 0.9;
-    padding: 0;
+.metro-line:nth-child(13) h2 {
+    background-color: #83B820;
+    font-size: 0.9rem;
 }
 
 .line-L10N {
@@ -331,8 +323,19 @@ h2 {
 .line-FM .station-dot {
     background-color: #006B31;
 }
-.metro-line:nth-child(14) h2 {
+.metro-line:nth-child(15) h2 {
     background-color: #006B31;
+    font-size: 0.9rem;
+}
+
+.line-L12 {
+    background-color: #8B6BA4;
+}
+.line-L12 .station-dot {
+    background-color: #8B6BA4;
+}
+.metro-line:nth-child(14) h2 {
+    background-color: #8B6BA4;
     font-size: 0.9rem;
 }
 
