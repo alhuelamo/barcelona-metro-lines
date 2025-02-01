@@ -339,3 +339,16 @@ h2 {
     font-size: 0.9rem;
 }
 
+.line-T1, .line-T2, .line-T3, .line-T4, .line-T5, .line-T6 {
+    background-color: #00877C;
+}
+.line-T1 .station-dot, .line-T2 .station-dot, .line-T3 .station-dot, 
+.line-T4 .station-dot, .line-T5 .station-dot, .line-T6 .station-dot {
+    background-color: #00877C;
+}
+.metro-line:nth-child(16) h2, .metro-line:nth-child(17) h2, .metro-line:nth-child(18) h2,
+.metro-line:nth-child(19) h2, .metro-line:nth-child(20) h2, .metro-line:nth-child(21) h2 {
+    background-color: #00877C;
+    font-size: 0.9rem;
+}
+
