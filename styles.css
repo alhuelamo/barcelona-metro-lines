@@ -228,17 +228,111 @@ h2 {
     background-color: #EF87B4;
 }
 
+.line-L9N {
+    background-color: #FF6E00;
+}
+.line-L9N .station-dot {
+    background-color: #FF6E00;
+}
+.metro-line:nth-child(9) h2 {
+    background-color: #FF6E00;
+    font-size: 0.7rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.9;
+    padding: 0;
+}
+
+.line-L9S {
+    background-color: #FF6E00;
+}
+.line-L9S .station-dot {
+    background-color: #FF6E00;
+}
+.metro-line:nth-child(10) h2 {
+    background-color: #FF6E00;
+    font-size: 0.7rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.9;
+    padding: 0;
+}
+
 .line-L11 {
     background-color: #83B820;
 }
 .line-L11 .station-dot {
     background-color: #83B820;
 }
-.metro-line:nth-child(9) h2 {
+.metro-line:nth-child(11) h2 {
+    background-color: #87CEEB;
+    font-size: 0.7rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.9;
+    padding: 0;
+}
+
+.line-L10N {
+    background-color: #87CEEB;
+}
+.line-L10N .station-dot {
+    background-color: #87CEEB;
+}
+.metro-line:nth-child(12) h2 {
     background-color: #83B820;
+    font-size: 0.9rem;
+}
+
+.line-L10S {
+    background-color: #87CEEB;
+}
+.line-L10S .station-dot {
+    background-color: #87CEEB;
+}
+.metro-line:nth-child(12) h2 {
+    background-color: #87CEEB;
+    font-size: 0.7rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.9;
+    padding: 0;
+}
+
+/* Update L11's nth-child selector */
+.metro-line:nth-child(13) h2 {
+    background-color: #83B820;
+    font-size: 0.9rem;
 }
 
 /* Metro line colors */
 .line-L2 { background-color: #9E1F63; }
 .line-L4 { background-color: #FFC10E; }
+
+.line-FM {
+    background-color: #006B31;
+}
+.line-FM .station-dot {
+    background-color: #006B31;
+}
+.metro-line:nth-child(14) h2 {
+    background-color: #006B31;
+    font-size: 0.9rem;
+}
 
