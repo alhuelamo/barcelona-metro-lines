@@ -348,12 +348,12 @@ h2 {
 .line-T4 .station-dot, .line-T5 .station-dot, .line-T6 .station-dot {
     background-color: #00877C;
 }
-.metro-line:nth-child(17) h2,
 .metro-line:nth-child(18) h2,
 .metro-line:nth-child(19) h2,
 .metro-line:nth-child(20) h2,
 .metro-line:nth-child(21) h2,
-.metro-line:nth-child(22) h2 {
+.metro-line:nth-child(22) h2,
+.metro-line:nth-child(23) h2 {
     background-color: #00877C;
     font-size: 0.9rem;
 }
