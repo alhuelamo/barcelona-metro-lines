@@ -179,6 +179,9 @@ h1.section-title {
 .line-L4 :is(.line-path, .station-dot, .line-name) {
     background-color: #FFC10E;
 }
+.line-L4 .line-name {
+    color: #333;
+}
 
 .line-L5 :is(.line-path, .station-dot, .line-name) {
     background-color: #0072BC;
@@ -234,6 +237,7 @@ h1.section-title {
 .line-L11 .line-name {
     background-color: #83B820;
     font-size: 0.9rem;
+    color: #333;
 }
 
 .line-L12 :is(.line-path, .station-dot) {
